@@ -1,0 +1,43 @@
+{
+    "name": "react-native-device-contacts",
+    "version": "0.0.1",
+    "description": "React native device contacts (Android & iOS)",
+    "react-native": "js/index",
+    "source": "js/index",
+    "files": [
+        "js",
+        "android",
+        "ios",
+        "react-native-device-contacts.podspec",
+        "!android/build",
+        "!ios/build",
+        "!**/__tests__",
+        "!**/__fixtures__",
+        "!**/__mocks__"
+    ],
+    "keywords": [
+        "react-native",
+        "ios",
+        "android"
+    ],
+    "repository": "https://github.com/emanu7478/react-native-device-contacts",
+    "author": "Emmanuel Wilson <emanu7478@gmail.com (https://github.com/emanu7478)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/emanu7478/react-native-device-contacts/issues"
+    },
+    "homepage": "https://github.com/emanu7478/react-native-device-contacts#readme",
+    "devDependencies": {},
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    },
+    "codegenConfig": {
+        "name": "ReactNativeDeviceContactsSpec",
+        "type": "modules",
+        "jsSrcsDir": "js",
+        "android": {
+            "javaPackageName": "com.reactnativedevicecontacts"
+        }
+    }
+}
